@@ -1,0 +1,99 @@
+.about {
+  text-align: center;
+  margin-top: 65px;
+  font-family: Muli, sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 32px;
+  line-height: 40px;
+}
+.margin {
+  margin-top: 40px !important;
+}
+.mainRow {
+  margin-left: 0px !important;
+  margin-right: 0px !important;
+}
+.mainCol {
+  padding-right: 0px !important;
+  padding-left: 0px !important;
+}
+.color {
+  color: #fb024d;
+  font-weight: 700;
+}
+
+.para {
+  margin-top: 48px;
+  font-family: Muli, sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 20px;
+}
+
+.border {
+  width: 100%;
+  border-bottom: 1px solid rgba(62, 62, 62, 0.4);
+  margin-top: 27px;
+}
+.investorspara {
+  text-align: left;
+  margin-top: 40px;
+  font-family: Muli, sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 20px;
+}
+.investorsImage {
+  vertical-align: middle;
+  margin-top: 80px;
+}
+.investorsImage.small {
+  margin-top: 40px;
+}
+
+@media (max-width: 62em) {
+  .investorContainer {
+    display: -webkit-box;
+    display: -moz-box;
+    display: -ms-flexbox;
+    display: -webkit-flex;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -moz-box-orient: vertical;
+    -webkit-flex-direction: column;
+    -ms-flex-direction: column;
+    flex-direction: column;
+  }
+  .investorContainer .first_div {
+    -webkit-box-ordinal-group: 2;
+    -moz-box-ordinal-group: 2;
+    -ms-flex-order: 2;
+    -webkit-order: 2;
+    order: 2;
+  }
+
+  .investorContainer .second_div {
+    -webkit-box-ordinal-group: 1;
+    -moz-box-ordinal-group: 1;
+    -ms-flex-order: 1;
+    -webkit-order: 1;
+    order: 1;
+  }
+}
+
+.name {
+  margin: 25px 0px;
+  font-family: Muli, sans-serif;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 24px;
+  line-height: 30px;
+  color: #3e3e3e;
+}
+
+.founder {
+  margin-top: 76px;
+}
