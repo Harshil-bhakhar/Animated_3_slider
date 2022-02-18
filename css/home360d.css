@@ -1,0 +1,1573 @@
+.first-load {
+    position: absolute;
+    height: 100vh;
+    width: 100%;
+    background: #000;
+    z-index: 10;
+    top: 0;
+}
+
+.tile1 {
+    padding-bottom: 200px;
+    width: 100%;
+    position: relative;
+    overflow: hidden;
+}
+
+.tile1 .hero-text {
+    font-family: "Urbanist";
+    padding-bottom: 16px;
+    font-size: 40px;
+    font-weight: 800;
+    line-height: 1.15;
+    letter-spacing: -1.6px;
+    text-align: center;
+    color: #ffffff;
+    max-width: 640px;
+    margin: 0 auto;
+}
+
+.tile1 .sub-heading {
+    font-family: "Urbanist";
+    font-size: 24px;
+    text-align: center;
+    color: #ffffff;
+    padding-bottom: 32px;
+    font-size: 21px;
+    line-height: 0.62;
+    letter-spacing: -0.42px;
+}
+
+.tile1 .sms-message {
+    opacity: 0.8;
+    font-family: "Muli";
+    font-size: 18px;
+    font-weight: bold;
+    line-height: 1.33;
+    letter-spacing: -0.36px;
+    text-align: center;
+    padding-bottom: 8px;
+}
+
+.tile1 .sms-terms {
+    opacity: 0.4;
+    font-family: "Muli";
+    font-size: 10px;
+    line-height: 2.4;
+    letter-spacing: -0.2px;
+    text-align: center;
+    color: #ffffff;
+}
+
+.tile1 .tile1-content {
+    top: 32%;
+    opacity: 1;
+    position: absolute;
+    width: 96%;
+    left: 2%;
+    right: 2%;
+}
+
+.phone-cont {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 25%;
+    border-radius: 35px;
+    box-shadow: 30px 30px 40px #0000004d;
+    align-items: center;
+    background-color: #0000004d;
+}
+
+.real-image {
+    position: absolute;
+    width: 92%;
+    left: 4.3%;
+    top: 1.6%;
+}
+
+.tile1 .cta {
+    padding-top: 30px;
+}
+
+.tile1 .image-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    transform: translate(14%, 155%) scale(8.5);
+    width: 95%;
+    margin: auto;
+}
+
+.tile1 .col {
+    width: 15.8%;
+    transform: translateX(2%);
+}
+
+.tile1 .col>img {
+    margin-top: -14%;
+}
+
+.tile1 .col img {
+    width: 100%;
+}
+
+.tile1 .col1 {
+    transform: translateY(13%);
+}
+
+.tile1 .col2 {
+    transform: translateY(2%);
+}
+
+.tile1 .col3 {
+    transform: translateY(-20%);
+}
+
+.tile1 .col4 {
+    transform: translateY(-3%);
+}
+
+.tile1 .col5 {
+    transform: translateY(10%);
+}
+
+.tile1 .col3 .img2 {
+    visibility: hidden;
+}
+
+.tile1 .real-image .logo {
+    width: 90px;
+    top: -90px;
+    position: relative;
+    text-align: center;
+    left: 50%;
+    transform: translate(-50%, 0);
+}
+
+.tile1 .fixed-col {
+    position: absolute;
+    left: 42.5%;
+    top: 148px;
+    width: 15%;
+    /*width: 218px;
+  height: 465px;*/
+}
+
+.tile1 .mobile-box {
+    text-align: center;
+    width: 373px;
+    -webkit-appearance: none;
+    margin: 0;
+    left: 50%;
+    transform: translate(-50%, 0);
+    margin-bottom: 32px;
+}
+
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+}
+
+.mobile-box {
+    background-color: #fc024d;
+    border: 2px solid #fc024d;
+    position: relative;
+    border-radius: 25px;
+    width: 373px;
+    left: 0;
+    -webkit-appearance: none;
+    margin: 0;
+}
+
+.mobile-box .disable {
+    width: 30px;
+    margin-right: -4px;
+    border-top-left-radius: 25px;
+    border-bottom-left-radius: 25px;
+    border: 1px solid #000000;
+    background-color: black;
+    color: #FFFFFF;
+    height: 40px;
+    padding-left: 10px;
+    font-family: 'Urbanist';
+    font-size: 16px;
+    font-weight: 800;
+    font-stretch: normal;
+    font-style: normal;
+    letter-spacing: normal;
+}
+
+.mobile-box .textbox {
+    background-color: black;
+    color: #FFFFFF;
+    height: 40px;
+    width: 160px;
+    border: 1px solid #000000;
+    font-family: 'Urbanist';
+    font-size: 16px;
+    font-weight: 800;
+}
+
+.mobile-box .button {
+    font-family: 'Urbanist';
+    background-color: #fc024d;
+    border: 3px solid #fc024d;
+    cursor: pointer;
+    width: 155px;
+    height: 48px;
+    border-top-right-radius: 25px;
+    border-bottom-right-radius: 25px;
+    border-top-left-radius: 25px;
+    border-bottom-left-radius: 25px;
+    font-size: 16px;
+    font-weight: 800;
+    font-stretch: normal;
+    font-style: normal;
+    letter-spacing: normal;
+    color: #ffffff;
+}
+
+.mobile-box .success {
+    width: 16px;
+    vertical-align: middle;
+    padding: 15px;
+}
+
+.get-glance .center {
+    margin-left: 85px;
+}
+
+.tile1 .overlay {
+    left: 0;
+    top: 0;
+    width: 100%;
+    min-height: 46%;
+    display: flex;
+    align-items: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: absolute;
+}
+
+.tile1 .gradient {
+    left: 0;
+    top: 0;
+    width: 100%;
+    min-height: 46%;
+    display: flex;
+    align-items: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: absolute;
+}
+
+.tile1 .content {
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    bottom: -3%;
+    width: 36%;
+    right: 16%;
+}
+
+.tile1 .content .img-cont {
+    width: 25%;
+    margin-bottom: 20px;
+}
+
+.tile1 .hero-heading {
+    font-family: 'Urbanist';
+    font-size: 48px;
+    font-weight: 800;
+    margin-bottom: 20px;
+}
+
+.tile1 .para-sec-light,
+.heading {
+    font-family: 'Urbanist';
+}
+
+.tile1 .pulse {
+    display: inline-block;
+    width: 9px;
+    height: 9px;
+    border-radius: 50%;
+    background: #fc024d;
+    cursor: pointer;
+    box-shadow: 0 0 0 rgba(252, 2, 77, 0.6);
+    animation: pulse 2s infinite;
+    margin-right: 10px;
+}
+
+.tile1 .glance-btn {
+    margin-top: 40px;
+}
+
+.video-tile {
+    position: relative;
+    min-height: unset;
+    height: 100vh;
+    overflow: hidden;
+}
+
+.video-tile video {
+    object-fit: cover;
+    left: 0;
+    top: 0;
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    z-index: 1;
+}
+
+@-webkit-keyframes pulse {
+    0% {
+        box-shadow: 0 0 0 0 rgba(252, 2, 77, 0.7);
+        transform: scale(0.8);
+    }
+    50% {
+        box-shadow: 0 0 0 10px rgba(252, 2, 77, 0);
+        transform: scale(1);
+    }
+    100% {
+        box-shadow: 0 0 0 0 rgba(252, 2, 77, 0);
+        transform: scale(0.8);
+    }
+}
+
+
+/* Tile 2 */
+
+.tile2 {
+    margin-top: 0px;
+    background-size: cover;
+    height: 100vh;
+    position: relative;
+}
+
+.tile2 .overlay {
+    display: flex;
+    align-items: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: absolute;
+    width: 100%;
+    height: 100vh;
+    z-index: -1;
+}
+
+.tile2 .content-box {
+    width: 90%;
+    position: absolute;
+    padding-left: 4%;
+}
+
+.tile2 .inner-content {
+    width: 30%;
+    margin-left: 10%;
+}
+
+.first-row {
+    color: #fff;
+}
+
+.second-row {
+    color: #fff;
+    margin-top: 20px;
+    width: 70%;
+}
+
+@keyframes particleAnimation1 {
+    from {
+        left: 20%;
+        top: -100px;
+        opacity: 1;
+    }
+    to {
+        left: calc(100% + 100px);
+        top: calc(100% + 100px);
+        opacity: 0;
+    }
+}
+
+@keyframes particleAnimation2 {
+    from {
+        left: 45%;
+        top: -100px;
+        opacity: 1;
+    }
+    to {
+        left: calc(100% + 100px);
+        top: calc(100% + 100px);
+        opacity: 0;
+    }
+}
+
+@keyframes particleAnimation3 {
+    from {
+        left: 35%;
+        top: -100px;
+        opacity: 1;
+    }
+    to {
+        left: calc(100% + 100px);
+        top: calc(100% + 100px);
+        opacity: 0;
+    }
+}
+
+.star {
+    position: absolute;
+    top: 50px;
+    width: 2px;
+    height: 2px;
+    background-color: white;
+    /* animation-name:particleAnimation; */
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+}
+
+.star::before {
+    position: absolute;
+    display: block;
+    content: "";
+    width: 100px;
+    right: -14px;
+    top: -35px;
+    height: 2px;
+    transform: rotateZ(45deg);
+    background: linear-gradient( to right, rgba(0, 0, 0, 0) 0%, rgba(255, 255, 255, 0.4) 100%);
+}
+
+.p-1 {
+    animation-name: particleAnimation1;
+    animation-duration: 20s;
+}
+
+.p-2 {
+    animation-name: particleAnimation2;
+    animation-duration: 5s;
+}
+
+.p-3 {
+    animation-name: particleAnimation3;
+    animation-duration: 10s;
+}
+
+
+/* Tile 4 */
+
+.tile4 {
+    padding: 200px 0 100px;
+}
+
+.tile4 .play-button {
+    width: 50px;
+    height: 50px;
+    padding: 0.2px;
+    border: solid 3px #fc024d;
+    border-radius: 50%;
+    margin-top: -250px;
+    cursor: pointer;
+    margin-left: 35%;
+}
+
+.tile4 .play-button:hover {
+    transform: scale(.95);
+    background-color: #fc024d;
+    box-shadow: 0px 0px 0px 10px rgba(0, 0, 0, 0.2);
+}
+
+.tile4 .play-button .play-button-inner {
+    display: block;
+    border: 20px solid transparent;
+    border-width: 15px 0px 15px 25px;
+    border-radius: 0;
+    border-left-color: white;
+    margin: 10px 0px 0px 17px;
+}
+
+.tile4 .video-popup {
+    position: fixed;
+    left: 5%;
+    top: 7%;
+    width: 90%;
+    background-color: #CCCCCC;
+}
+
+.tile4 .content {
+    display: flex;
+    justify-content: space-between;
+    padding-bottom: 90px;
+}
+
+.tile4 .content .heading {
+    width: 25%;
+    font-weight: 800;
+}
+
+.tile4 .content .desc {
+    width: 25%;
+}
+
+.tile4 .image-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin: auto;
+}
+
+.tile4 .image-container .img-box {
+    width: 13%;
+    display: flex;
+    flex-direction: column;
+}
+
+.tile4 .image-container .img-box .category {
+    margin-bottom: 16px;
+    font-weight: 900;
+    line-height: 1.33;
+    font-size: 18px;
+    font-family: 'Muli';
+}
+
+.tile4 .image-container .img-box .description {
+    margin-bottom: 32px;
+    font-size: 16px;
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.63;
+    font-family: 'Muli';
+    height: 60px;
+}
+
+
+/* slick css */
+
+.slick-dotted.slick-slider {
+    margin-bottom: 0;
+}
+
+.slick-dots {
+    position: absolute;
+    bottom: 6%;
+    display: block;
+    width: 87%;
+    padding: 0;
+    margin: 0;
+    list-style: none;
+    text-align: right;
+    display: flex;
+    justify-content: flex-end;
+    height: 11%;
+    align-items: center;
+}
+
+.slick-dots li {
+    position: relative;
+    display: inline-block;
+    width: 9%;
+    height: 100%;
+    margin: 0 1%;
+    padding: 0;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    opacity: 0.7;
+}
+
+.logo-heading {
+    font-weight: 300;
+    font-size: 1em;
+    margin-bottom: 20px;
+}
+
+.logo-content {
+    display: flex;
+    justify-content: space-between;
+    width: 80%;
+    display: none;
+}
+
+.logo-content .logo-img {
+    width: 15%;
+    display: flex;
+    align-items: center;
+}
+
+
+/* Tile 6 */
+
+.tile6 {
+    padding: 0px 0 200px 0px;
+}
+
+.tile6 .inner-cont {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 90%;
+    margin: auto;
+}
+
+.tile6 .img-cont {
+    padding: 90px 0;
+}
+
+.tile6 .btn-arrow a {
+    color: #000;
+}
+
+.tile6 .desc {
+    width: 40%;
+}
+
+
+/* Logo tile */
+
+.logo-tile {
+    padding: 70px 0;
+}
+
+.logo-tile .logo-container {
+    width: 60%;
+    display: flex;
+    justify-content: space-around;
+    align-items: flex-end;
+    margin: auto;
+}
+
+.logo-tile .logo-container img {
+    width: 200px;
+}
+
+
+/*  tile 7 */
+
+.tile7 {
+    /* padding: 0px 0 0px; */
+    background: #000;
+    height: 100vh;
+    display: flex;
+}
+
+.tile7 .inner-container {
+    display: flex;
+    justify-content: space-around;
+    width: 70%;
+    margin: auto;
+    align-items: center;
+    position: relative;
+    height: 100%;
+    align-items: center;
+    margin-top: 3%;
+}
+
+.tile7 .inner-container .content {
+    font-size: 1em;
+    margin-top: 30px;
+    text-align: center;
+}
+
+.tile7 .tile-heading {
+    width: 35%;
+    display: none;
+    opacity: 0;
+    position: absolute;
+    line-height: 1.1;
+}
+
+.tile7 .image-item {
+    display: flex;
+    flex-direction: column;
+    width: 28%;
+    align-items: center;
+}
+
+.tile7 .mobile-image {
+    width: 100%;
+    border: 1px solid #707070;
+    border-radius: 20px;
+    padding: 30px 15px;
+    position: relative;
+}
+
+.tile7 .mobile-image .other-images {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 30px;
+    left: 0;
+    display: flex;
+    justify-content: center;
+}
+
+.mobile-image .other-images img {
+    position: absolute;
+    width: 92%;
+}
+
+
+/* Tile 8 */
+
+.tile8 {
+    height: 100vh;
+}
+
+.tile8 .inner-container {
+    position: relative;
+}
+
+.tile8 .hand-img-cont {
+    position: absolute;
+    width: 55%;
+    display: flex;
+    left: 30%;
+    bottom: 0;
+    z-index: 1;
+}
+
+.tile8 .hand-img-cont.reveal1 {
+    z-index: 2;
+}
+
+.tile8 .content-container {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.tile8 .content {
+    width: 30%;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.tile8 .image-container img {
+    height: 100vh;
+    width: auto;
+}
+
+.tile8 .hand-img-cont img {
+    height: 100%;
+}
+
+.tile8 .exp-btn {
+    margin-top: 40px;
+    padding: 14px 20px;
+    align-self: baseline;
+}
+
+
+/* Tile 9 */
+
+.tile9 {
+    position: relative;
+    height: 100vh;
+}
+
+.tile9 .inner-container {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    height: 100vh;
+    align-items: center;
+}
+
+.tile9 .overlay {
+    position: absolute;
+    height: 100vh;
+    width: 100%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.tile9 .content {
+    width: 65%;
+}
+
+.tile9 .content .h-secondary {
+    width: 75%;
+}
+
+.tile9 .content-container {
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.tile9 .content h2,
+.tile8 .content h2 {
+    margin-bottom: 20px;
+}
+
+.tile9 .image-container {
+    width: 40%;
+    height: 100vh;
+    position: relative;
+}
+
+.tile9 .img-box {
+    position: absolute;
+    width: 50%;
+}
+
+.tile9 .img1 {
+    top: 16%;
+    z-index: 5;
+    left: 4%;
+    box-shadow: 0px 30px 40px #2f010f5c;
+    border-radius: 22px;
+}
+
+.tile9 .img2 {
+    top: 16.8%;
+    left: 3%;
+    z-index: 4;
+}
+
+.tile9 .img3 {
+    top: 17.6%;
+    left: 2%;
+    z-index: 3;
+}
+
+.tile9 .img4 {
+    top: 18.4%;
+    left: 1%;
+    z-index: 2;
+}
+
+.tile9 .img5 {
+    top: 19.2%;
+    left: 0%;
+    z-index: 1;
+}
+
+
+/* tile 10 */
+
+.tile10 {
+    padding: 200px 0;
+}
+
+.tile10 .inner-cont {
+    display: flex;
+    align-items: center;
+}
+
+.tile10 .image-cont {
+    width: 50%;
+    margin-right: 8%;
+    display: flex;
+    flex-direction: column;
+}
+
+.tile10 .image-cont .prog-bar-container {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    height: 4px;
+    margin-top: 1%;
+}
+
+.tile10 .image-cont .prog-bar-container .progress,
+.tile10 .image-cont .prog-bar-container .progress {
+    width: 49%;
+    background: rgba(214, 98, 98, 0.5);
+    border-radius: 32px;
+}
+
+.progress1,
+.progress2 {
+    width: 0%;
+    height: 100%;
+    background: #fc024d;
+    border-radius: 32px;
+}
+
+.tile10 .content {
+    width: 45%;
+}
+
+.tile10 .content h2 {
+    margin-bottom: 20px;
+}
+
+
+/*  tile11 */
+
+.tile11 {
+    padding: 140px 0 200px;
+    margin-top: 120px;
+}
+
+.tile11 .glance-btn {
+    margin-top: 100px;
+}
+
+.tile11 .inner-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    z-index: 100;
+    left: 50%;
+    transform: translate(-50%, 0);
+}
+
+.tile11 .inner-container .heading {
+    margin-bottom: 18px;
+    font-family: "Urbanist";
+    font-size: 64px;
+    font-weight: 800;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.25;
+    letter-spacing: -1.92px;
+    text-align: center;
+    color: #000000;
+}
+
+.tile11 .inner-container .sub-heading {
+    margin-bottom: 70px;
+    font-family: "Urbanist";
+    font-size: 16px;
+    font-weight: bold;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.5;
+    letter-spacing: normal;
+    text-align: center;
+    color: #000000;
+}
+
+.tile11 .image-cont {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.tile11 .mobile-image {
+    height: 450px;
+}
+
+.tile11 .image-cont .image-item {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.tile11 .mobile-names {
+    color: #fff;
+    opacity: 0.7;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.tile11 .sms-message {
+    font-size: 16px;
+    margin-bottom: 16px;
+}
+
+.tile11 .phone-logo {
+    margin: 35px 0 30px 0;
+}
+
+.tile11 .phone-logo img {
+    height: 24px;
+    width: auto;
+}
+
+.tile11 .overlay {
+    width: 98%;
+    height: 1165px;
+    margin-top: 465px;
+    display: flex;
+    align-items: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    transform: translate(1%, 0);
+    border-radius: 40px;
+}
+
+.tile11 .content-box {
+    text-align: center;
+}
+
+.tile11 .content {
+    margin-top: 560px;
+    margin-bottom: 394px;
+}
+
+.tile11 .content .logo-img img {
+    width: 95px;
+}
+
+.tile11 .content .logo-img {
+    margin-bottom: 24px;
+}
+
+.tile11 .content .h-primary {
+    font-family: "Urbanist";
+    font-size: 64px;
+    font-weight: 900;
+    line-height: 1.09;
+    text-align: center;
+    margin-bottom: 48px;
+}
+
+.tile11 .content .mobile-box {
+    text-align: center;
+    margin: 0 auto;
+    padding: 0;
+    margin-bottom: 24px;
+}
+
+.tile11 .content .terms {
+    width: 620px;
+    opacity: 0.8;
+    font-family: "Urbanist";
+    font-size: 12px;
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: normal;
+    margin: 0 auto;
+    line-height: 1.67;
+    letter-spacing: normal;
+    text-align: center;
+    color: #ffffff;
+}
+
+
+/*  Tile 12 */
+
+.tile12 {
+    padding: 0 0 100px;
+}
+
+.tile12 h3 {
+    padding: 0 0 100px;
+}
+
+.tile12 .inner-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.tile12 .content-cont {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+
+.tile12 .content-cont .row {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 1%;
+}
+
+.tile12 .content-cont .row .col {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.tile12 .content-cont .row .content {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    position: relative;
+    height: 100%;
+}
+
+.tile12 .content-cont .row1 .col1,
+.tile12 .content-cont .row2 .col2 {
+    width: 35%;
+}
+
+.tile12 .content-cont .row1 .col2,
+.tile12 .content-cont .row2 .col1 {
+    width: 50%;
+}
+
+.tile12 .logo-cont {
+    width: 150px;
+    height: 48px;
+}
+
+.row .col {
+    height: 600px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    border-radius: 6px;
+    padding: 3.5%;
+}
+
+.tile12-content {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    height: 52%;
+    text-transform: uppercase;
+}
+
+.row1 .col1 .tile12-content,
+.row2 .col2 .tile12-content {
+    width: 80%;
+}
+
+.row1 .col2 .tile12-content,
+.row2 .col1 .tile12-content {
+    width: 50%;
+}
+
+.row1 .col2 .tile12-content .logo-cont,
+.row2 .col1 .tile12-content .logo-cont,
+.row2 .col2 .tile12-content .logo-cont {
+    background-color: #000;
+}
+
+.tile12-content .logo-cont img {
+    max-width: 140px;
+    max-height: 44px;
+}
+
+.logo-cont {
+    width: 150px;
+    background-color: #ffffff;
+    padding: 0px 11px;
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 25px;
+    align-items: center;
+}
+
+.time-cont {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    line-height: 1.4;
+}
+
+.time-cont .time {
+    font-weight: 900;
+}
+
+.tile14 .overlay {
+    height: 56.3vw;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    background-size: cover;
+    background-position: bottom;
+    background-repeat: no-repeat;
+}
+
+.tile14 .content-box {
+    padding-top: 90px;
+}
+
+.tile14 .hero-text {
+    font-family: "Urbanist";
+    font-size: 48px;
+    font-weight: 800;
+    line-height: 1.16;
+    text-align: left;
+    color: #ffffff;
+    width: 470px;
+    margin-top: 270px;
+}
+
+.tile14 .live-images {
+    width: 37%;
+    text-align: center;
+    margin-left: 10px;
+    margin-top: 10px;
+    max-width: 532px;
+}
+
+.tile14 .content-box .main-block {
+    position: absolute;
+    width: 100%;
+    left: 0px;
+}
+
+.tile14 .content-box .video-box,
+.tile14 .content-box .text-box {
+    width: 50%;
+    float: left;
+    text-align: center;
+}
+
+.tile14 .video-element {
+    margin-left: 8px;
+    border-radius: 30px;
+    margin-top: 5px;
+    width: 37%;
+}
+
+@keyframes box-slide-animation {
+    from {
+        left: 0;
+    }
+    to {
+        left: 20%;
+    }
+}
+
+@media (min-width: 1025px) and (max-width: 1300px) {
+    html {
+        font-size: 12px;
+    }
+    .tile1 .content {
+        bottom: -5%;
+        width: 38%;
+    }
+    .tile1 .hero-heading {
+        font-size: 44px;
+    }
+    .h-alternate {
+        font-size: 2.3em;
+    }
+    .tile7 .inner-container {
+        width: 64%;
+    }
+    .h-big {
+        font-size: 7em;
+    }
+    .outer-container {
+        height: 300px;
+        width: 350px;
+    }
+    .mobile-image .other-images img {
+        width: 89%;
+    }
+}
+
+@media (min-width: 768px) and (max-width: 1024px) {
+    .tile11 .mobile-image {
+        height: 300px;
+    }
+    .row .col {
+        height: 420px;
+    }
+    .row1 .col1 .tile12-content,
+    .row2 .col2 .tile12-content {
+        width: 100%;
+    }
+    .row1 .col2 .tile12-content,
+    .row2 .col1 .tile12-content {
+        width: 95%;
+    }
+    .tile12-content {
+        height: 56%;
+    }
+    .outer-container {
+        height: 250px;
+        width: 285px;
+    }
+    .mobile-image .other-images img {
+        width: 89%;
+    }
+}
+
+@media (min-width: 1500px) {
+    .tile8 .hand-img-cont {
+        width: 65%;
+    }
+    .tile9 .content {
+        width: 75%;
+    }
+    .tile9 .img-box {
+        width: 60%;
+    }
+    .tile12-content {
+        height: 60%;
+    }
+    .row1 .col1 .tile12-content,
+    .row2 .col2 .tile12-content {
+        width: 85%;
+    }
+    .tile1 .content {
+        width: 35%;
+        right: 15%;
+    }
+    .tile4 .content .heading {
+        width: 27%;
+    }
+}
+
+@media (min-width: 1800px) {
+    .tile1 {
+        padding-bottom: 300px;
+    }
+    .tile1 .image-container {
+        width: 95%;
+        margin: auto;
+        transform: scale(10);
+    }
+    .tile1 .col2 {
+        transform: translateY(2%);
+    }
+    .tile1 .col3 {
+        transform: translateY(-17%);
+    }
+    .tile1 .col>img {
+        margin-top: -18%;
+    }
+    .slick-dots {
+        width: 80%;
+        bottom: 9%;
+    }
+    .video-tile {
+        position: relative;
+        min-height: unset;
+        height: 100vh;
+        overflow: hidden;
+    }
+    .video-tile video {
+        object-fit: cover;
+        left: 0;
+        top: 0;
+        height: 100%;
+        width: 100%;
+        position: absolute;
+        z-index: 1;
+    }
+    .slick-dots li {
+        margin: 0 1%;
+    }
+    .mobile-image .other-images img {
+        width: 91%;
+    }
+    .tile8 .hand-img-cont {
+        width: 75%;
+        left: 28%;
+    }
+    .tile9 .img-box {
+        width: 70%;
+    }
+    .tile9 .content-container {
+        justify-content: flex-start;
+    }
+    .tile12-content {
+        height: 62%;
+    }
+    .row1 .col1 .tile12-content,
+    .row2 .col2 .tile12-content {
+        width: 80%;
+    }
+    .tile1 .content {
+        width: 38%;
+        right: 10%;
+        bottom: -5%;
+    }
+    .tile1 .hero-heading {
+        font-size: 48px;
+        line-height: 1.2;
+    }
+    .tile1 .content .img-cont {
+        width: 21%;
+    }
+    .second-row {
+        width: 83%;
+    }
+    .logo-tile {
+        padding: 100px 0;
+    }
+    .logo-tile .logo-container {
+        width: 54%;
+    }
+    .tile6 {
+        padding: 0px 0 200px 0px;
+    }
+    .tile8 .content {
+        width: 35%;
+    }
+    .tile7 .image-item {
+        width: 28%;
+    }
+    .tile7 .mobile-image {
+        padding: 30px 20px;
+    }
+    .tile7 .tile-heading {
+        line-height: 1;
+    }
+    .tile14 .hero-text {
+        font-size: 64px;
+    }
+    .tile14 .video-element {
+        border-radius: 40px;
+        width: 360px;
+        height: 762px;
+        margin-left: 10px;
+        margin-top: 7px;
+    }
+}
+
+.tile0 .hero-text {
+    color: #000;
+    font-size: 4em;
+    font-weight: 700;
+    margin-bottom: 30px;
+    text-align: center;
+}
+
+.branding-logo {
+    text-align: center;
+    width: 45%;
+    margin: auto;
+    margin-bottom: 30px;
+}
+
+.branding-logo img {
+    width: 100%;
+}
+
+.newsroom-cta-button {
+    background: #fc024d;
+    color: white;
+    display: block;
+    width: 138px;
+    margin: auto;
+    padding: 12px 20px;
+    box-sizing: border-box;
+    border-radius: 18px;
+    text-align: center;
+    margin-bottom: 40px;
+}
+
+.hero-tile {
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-size: cover;
+    background-position: bottom;
+    background-repeat: no-repeat;
+}
+
+.hero-banner {
+    width: 100%;
+}
+
+@media (min-width: 1200px) and (max-width: 1390px) {
+    .tile1 .hero-text {
+        padding-bottom: 10px;
+        font-size: 32px;
+        letter-spacing: -1.3px;
+    }
+    .tile1 .sub-heading {
+        padding-bottom: 12px;
+        font-size: 18px;
+    }
+    .tile1 .mobile-box {
+        margin-bottom: 12px;
+        font-size: 13px;
+    }
+    .tile1 .sms-message {
+        padding-bottom: 10px;
+        font-size: 13px;
+    }
+    .tile1 .sms-terms {
+        font-size: 10px;
+    }
+}
+
+@media (min-width: 960px) and (max-width: 1200px) {
+    .tile1 .hero-text {
+        padding-bottom: 6px;
+        font-size: 24px;
+        letter-spacing: -1px;
+    }
+    .tile1 .sub-heading {
+        padding-bottom: 12px;
+        font-size: 18px;
+    }
+    .tile1 .mobile-box {
+        margin-bottom: 12px;
+        font-size: 13px;
+        width: 253px;
+    }
+    .tile1 .sms-message {
+        padding-bottom: 6px;
+        font-size: 13px;
+    }
+    .tile1 .sms-terms {
+        font-size: 8px;
+    }
+    .mobile-box .disable {
+        height: 30px;
+    }
+    .mobile-box .textbox {
+        height: 30px;
+        width: 100px;
+    }
+    .mobile-box .button {
+        width: 100px;
+        height: 32px;
+        font-size: 13px;
+    }
+    .tile11 .content .mobile-box {
+        font-size: 13px;
+        width: 253px;
+    }
+}
+
+@media (max-width: 960px) {
+    .tile1 .hero-text {
+        padding-bottom: 2px;
+        font-size: 18px;
+        letter-spacing: -.5px;
+    }
+    .tile1 .sub-heading {
+        padding-bottom: 3px;
+        font-size: 13px;
+    }
+    .tile1 .mobile-box {
+        margin-bottom: 12px;
+        font-size: 13px;
+        width: 253px;
+    }
+    .tile1 .sms-message {
+        padding-bottom: 1px;
+        font-size: 11px;
+    }
+    .tile1 .sms-terms {
+        line-height: 1;
+        font-size: 7px;
+    }
+    .mobile-box .disable {
+        height: 30px;
+    }
+    .mobile-box .textbox {
+        height: 30px;
+        width: 100px;
+    }
+    .mobile-box .button {
+        width: 100px;
+        height: 32px;
+        font-size: 13px;
+    }
+    .tile11 .content .mobile-box {
+        font-size: 13px;
+        width: 253px;
+    }
+}
